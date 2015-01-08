@@ -7,18 +7,22 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><link rel ="stylesheet" type="text/css" href="main.css">
+        <script src="PauseVideo.js"></script>
         <script defer>
             $(function() {
                 $("#footer").load("headerFooter/footer.html");
-                $("#header").load("headerFooter/header.html");
+                $("#header").load("headerFooter/header.html");                    
             });
         </script>
     </head>
-
-
     <body>
         <div id="header"></div>
         <div id="footer"></div>
+        <video autoplay loop poster="test.jpg" id="bgvid">
+            <source src="media/driver.webm" type="video/webm">
+        </video>
+        
+        <button class="btn btn-danger" id="vidpause">Pause</button>
 
         <div id="container">
             <div id="content">
