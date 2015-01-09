@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><link rel ="stylesheet" type="text/css" href="main.css">
-        <script src="PauseVideo.js"></script>
+        <script src="PauseVideo.js" type="text/javascript"></script>
         <script defer>
             $(function() {
                 $("#footer").load("headerFooter/footer.html");
@@ -15,12 +15,15 @@
             });
         </script>
     </head>
-    <body>
+    
+    <body>        
         <div id="header"></div>
         <div id="footer"></div>
-        <video autoplay loop poster="test.jpg" id="bgvid">
+        <video autoplay loop poster="test.jpg" id="BGvid">
             <source src="media/driver.webm" type="video/webm">
         </video>
+        
+        
         
         <button class="btn btn-danger" id="vidpause">Pause</button>
 
