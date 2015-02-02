@@ -1,21 +1,8 @@
-var vid = document.getElementById("BGvid");
-var pauseButton = document.getElementById("vidpause");
-function vidFade() {
-    vid.classList.add("stopfade");
-}
+var myVideo = document.getElementById("bgvid"); 
 
-vid.addEventListener('ended',function(){
-    vid.pause();
-    vidFade();
-});
-
-pauseButton.addEventListener("click",function(){
-    vid.classList.toggle("stopfade");
-    if(vid.paused){
-        vid.play();
-        pauseButton.innerHTML="Puase"
-    } else {
-        vid.pause();
-        pauseButton.innerHTML="Paused"
-    }
-});
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+};
