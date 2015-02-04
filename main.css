@@ -18,9 +18,4 @@ video#bgvid{
     background-size: cover;
 }
 
-video#bgvid {
-    transition: 1s opacity;
-}
-.stopfade {
-    opacity: .5;
-}
+

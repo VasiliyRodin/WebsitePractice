@@ -5,4 +5,4 @@ function playPause() {
         myVideo.play(); 
     else 
         myVideo.pause(); 
-};
+}; 
