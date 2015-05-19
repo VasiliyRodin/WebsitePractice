@@ -3,7 +3,7 @@
         <title>About</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel ="stylesheet" type="text/css" href="main.css">
+        <link rel ="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><link rel ="stylesheet" type="text/css" href="main.css">
@@ -16,33 +16,17 @@
             });
         </script>
     </head>
-
-
-
     <body>        
         <div id="header"></div>
-
-
-
-
-        <video id ="bgvid" autoplay loop>
-            <source src="media/driver.webm" type="video/webm">
-        </video>
-
-
-        <button class="btn btn-danger" onclick="playPause()"> Play/Pause</button>
-
-
-
         <div id="container">
             <div id="content">
                 <div class ="row">
-                    <div class="col-md-4 text-center">
-                        <div class="myPicture" style="padding-bottom:50px;">
+                    <div class="col-md-4">
+                        <div class="myPicture text-center" style="padding-bottom:50px;">
                             <img src="media/me.jpg" alt="A picture of me" class="img-circle responsive" style ="width:250px; height:250px">
                         </div>
 
-                        <div class="skills">
+                        <div class="skills" style="display:table; margin:0 auto;s">
                             <ul>
                                 <li> Experience in HTML </li>
                                 <li> Experience in CSS </li>
@@ -58,12 +42,25 @@
                         <div class="description">
                             <p>This is a brief description about me. I have received a Bachelors Degree in Computer Science from Cal State East Bay.<br> I keeping up with technology and seeing the different progesodfjshdfhsafhdiashdfklh askdhfksh</p>
                         </div>
+
+                        <div class="banner">
+                            <h2>Interests:</h2>
+                        </div>
+                        <div class="description">
+                            <p> My interests are playing video games, looking at new and expensive cars on craigslist and learning new things about web development. <br>
+                                My favorite shows are:<br>
+                                <ul>
+                                    <li>Top Gear</li>
+                                    <li>Mad Men</li>
+                                    <li>House of Cards</li>
+                                    <li>Game of Thrones</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <script src="PauseVideo.js"></script>
         <div id="footer"></div>
     </body>
 </html>
