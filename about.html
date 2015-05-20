@@ -4,15 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel ="stylesheet" type="text/css" href="css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script><link rel ="stylesheet" type="text/css" href="main.css">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
         <script defer>
             $(function () {
                 $("#footer").load("headerFooter/footer.html");
                 $("#header").load("headerFooter/header.html");
+                $("#cars").load("carousel.html");
             });
         </script>
     </head>
@@ -49,18 +50,20 @@
                         <div class="description">
                             <p> My interests are playing video games, looking at new and expensive cars on craigslist and learning new things about web development. <br>
                                 My favorite shows are:<br>
-                                <ul>
-                                    <li>Top Gear</li>
-                                    <li>Mad Men</li>
-                                    <li>House of Cards</li>
-                                    <li>Game of Thrones</li>
-                                </ul>
+                            <ul>
+                                <li>Top Gear</li>
+                                <li>Mad Men</li>
+                                <li>House of Cards</li>
+                                <li>Game of Thrones</li>
+                            </ul>
                             </p>
                         </div>
+
+                        <div id="cars"></div>
                     </div>
                 </div>
             </div>
+            <div id="footer"></div>
         </div>
-        <div id="footer"></div>
     </body>
 </html>
