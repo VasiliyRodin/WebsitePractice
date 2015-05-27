@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
 #header{
     margin-bottom: 65px;
 }
@@ -16,4 +18,6 @@
 	width:100%;
 	height: auto%;
 }
-
+div.jumbotron > center h1,div.jumbotron >center p {
+	font-family: Gloria Hallelujah;
+}
