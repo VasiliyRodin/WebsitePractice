@@ -18,6 +18,17 @@
 	width:100%;
 	height: auto%;
 }
+
+#myCarousel {
+	width: 75%;
+}
+
+div#pcCarousel h4{
+	color: black;
+}
+
+
 div.jumbotron > center h1,div.jumbotron >center p {
 	font-family: Gloria Hallelujah;
 }
+
